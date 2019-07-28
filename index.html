@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Conversor de monedas</title>
+    <link rel="stylesheet" href="monedas.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
+<link rel="icon" href="monedas.png">
+  </head>
+  <body class="fondo">
+<h1 class="titulo">Conversor de monedas</h1>
+<br>
+<br>
+<hr>
+
+<form>
+
+<span id="simbolo"></span>   <input id="monto" class="valor" type="number" name="" value="" placeholder="Monto">
+<select id="monedaE" class="valor" name="" >
+<option value="ars">Pesos argentinos</option>
+<option value="eur">Euro</option>
+<option value="usd">Dolar estadounidense</option>
+<option value="brl">Real brasileño</option>
+</select>
+
+<button id="conv" type="button" name="button">Convertir</button>
+
+</form>
+</p>
+<br>
+<hr>
+<form class="ltr">
+  <span id="simboloC"></span>
+  <span id="resultado">0.00</span>
+  <select id="monedaC" class="valor" name="">
+    <option value="ars">Pesos argentinos</option>
+    <option value="eur">Euro</option>
+    <option value="usd">Dolar estadounidense</option>
+    <option value="brl">Real brasileño</option>
+  </select>
+</form>
+<span> <h1>Actualizado el 27/07/19</h1> </span>
+<br>
+<h1>Valor de una moneda en pesos argentinos</h1>
+<div class="imagen">
+  <span> <img src="eur.png" alt="Europea" style="margin-left:6vw"> <span class="precio">:$48.15</span>     <img src="brl.png" alt="Brasil"><span class="precio">:$11.45</span>  <img src="usd.png" alt="EE.UU"><span class="precio">:$43.20</span></span>
+</div>
+
+
+
+<script src="monedas.js" type="text/javascript"></script>
+<footer></footer>
+  </body>
+</html>
